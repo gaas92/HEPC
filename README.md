@@ -1,9 +1,8 @@
 # HEPC
-Este repositorio esta hecho para que puedan leer correr algunos ejemplos sencillos que queremos mostrarles.
+## Repositorio para el curso de HEP cinvestav2020
+Saludos, este repositorio es para ustedes, aqui encontraran los ejercicios que preparamos y las instrucciones para que puedan hacerlos. 
+cualquier comentario o problema tecnico cominiquense conmigo o con Daniel.
 
-Aqui también etaránlas instruccies para descargar, e instalar las librerias, paquetes, programas y scripts que necesiten para hacer los ejercicios. 
-
-
-Saludos 
+Att.
 Gabriel.
 Repositorio para el curso de HEP cinvestav2020
