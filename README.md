@@ -11,13 +11,17 @@ Cualquier comentario o problema tecnico cominiquense conmigo o con Daniel.
 hay varias formas para lograr esto, aqui les propongo la siguiente solucion:
   - Descargar el programa sshuttle, el repositorio pueden encontrarlo aqui [sshuttle](https://github.com/sshuttle/sshuttle), o deescargarlo e instalarlo directamente via pip:
 ```
-sudo pip install sshuttle
+$ sudo pip install sshuttle
 ```
-y despues tunelearse a pine con:
-
-
+  - y despues tunelearse a pine con:
 ```
-ssh username@hcrotte.fis.cinvestav.mx
+$ sshuttle --dns -r usuario_de_cinvestav@pine.fis.cinvestav.mx 0/0
+```
+  - Lo que esto realiza es mandar todo su trafico a pine.(En el caso de Jhovanny, si tu cuenta en pine no esta activa puedes aplicar la misma via higgs)
+
+- Ahora deberian poder conectarse al servidor con:
+```
+$ ssh username@hcrotte.fis.cinvestav.mx
 
 ```
 e ingresar su password. Pueden utilizar los argumentos 
