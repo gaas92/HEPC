@@ -23,7 +23,7 @@ $ sshuttle --dns -r usuario_de_cinvestav@pine.fis.cinvestav.mx 0/0
 ```
 $ ssh username@hcrotte.fis.cinvestav.mx
 ```
-e ingresar su password.
+e ingresar su password, (se las mando a su correo). Si desean cambiarla pueden usar ```$ passwd ```.
 
 - Ahora vamos a intentar clonar este repositorio, lo cual puede realizarse facilmente usando 
 ```
