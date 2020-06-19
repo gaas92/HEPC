@@ -27,8 +27,6 @@ e ingresar su password.
 
 - Ahora vamos a intentar clonar este repositorio, lo cual puede realizarse facilmente usando 
 ```
-$ mkdir curso_hep
-$ cd curso_hep
 $ git clone https://github.com/gaas92/HEPC.git
 ```
 
