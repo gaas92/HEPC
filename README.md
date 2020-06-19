@@ -30,6 +30,16 @@ e ingresar su password.
 $ git clone https://github.com/gaas92/HEPC.git
 ```
 
+- Cuando tengan el repositorio, si trabajan localmente deberian poder correr en su instalacion de ROOT los  macros .C, que estan en la carpeta "tests" usando  ```$ root -l macro_.C``` y el python usando  ``` $ python rf101_basics.py ``` y deberia correr correctamete, si tienen problemas pueden contactarnos o usar el servidor. 
+
+- Si trabajan en el servidor primero deben setear el virtual enviroment que Horacio nos hizo favor de configurar:
+
+```
+$ cd HEPC
+$ conda activate root_env
+```
+- Asi deben ser capacer de correr cualquier ejercicio de en tests. 
+
 Att.
 Gabriel.
 
