@@ -38,7 +38,9 @@ $ git clone https://github.com/gaas92/HEPC.git
 $ cd HEPC
 $ conda activate root_env
 ```
-- Asi deben ser capacer de correr cualquier ejercicio de en tests. 
+- Asi deben ser capacer de correr cualquier ejercicio de la carpeta "tests".
+
+- Espero sus sugerencias :+1: :shipit:
 
 Att.
 Gabriel.
