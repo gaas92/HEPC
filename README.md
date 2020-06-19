@@ -22,9 +22,15 @@ $ sshuttle --dns -r usuario_de_cinvestav@pine.fis.cinvestav.mx 0/0
 - Ahora deberian poder conectarse al servidor con:
 ```
 $ ssh username@hcrotte.fis.cinvestav.mx
-
 ```
-e ingresar su password. Pueden utilizar los argumentos 
+e ingresar su password.
+
+- Ahora vamos a intentar clonar este repositorio, lo cual puede realizarse facilmente usando 
+```
+$ mkdir curso_hep
+$ cd curso_hep
+$ git clone https://github.com/gaas92/HEPC.git
+```
 
 Att.
 Gabriel.
