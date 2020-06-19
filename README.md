@@ -17,7 +17,7 @@ $ sudo pip install sshuttle
 ```
 $ sshuttle --dns -r usuario_de_cinvestav@pine.fis.cinvestav.mx 0/0
 ```
-  - Lo que esto realiza es mandar todo su trafico a pine.(En el caso de Jhovanny, si tu cuenta en pine no esta activa puedes aplicar la misma via higgs)
+  - Lo que esto realiza es mandar todo su trafico a pine.(En el caso de Jhovanny, si tu cuenta en pine no esta activa puedes aplicar la misma via higgs), les pedira su contraseña local y sus creddenciales de cinvestav (mismo password de su correo de fisica)
 
 - Ahora deberian poder conectarse al servidor con:
 ```
