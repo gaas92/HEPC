@@ -17,12 +17,13 @@ $ sudo pip install sshuttle
 ```
 $ sshuttle --dns -r usuario_de_cinvestav@pine.fis.cinvestav.mx 0/0
 ```
-  - Esto lo que hace es mandar todo su trafico a pine.(En el caso de Jhovanny, si tu cuenta en pine no esta activa puedes aplicar la misma via higgs), les pedira su contraseña local y sus credenciales de cinvestav (mismo password de su correo de fisica)
-
-- Ahora deberian poder conectarse al servidor con:
+- Esto lo que hace es mandar todo su trafico a pine.(En el caso de Jhovanny, si tu cuenta en pine no esta activa puedes aplicar la misma via higgs), les pedira su contraseña local y sus credenciales de cinvestav (mismo password de su correo de fisica), esto deberia permiriles conectarse en multiples seciones ssh, bajar articulos o usar las licencias de software del cinvestav sin mayor problema. Otra opcion mas sencilla es entrar directamente a pine y de ahi al servidor.
+  
+- Ahora deberian poder conectarse al servidor usando otra terminal con:
 ```
 $ ssh username@hcrotte.fis.cinvestav.mx
 ```
+- Si tienen problemas con sshuttle o simplemente no quieren instalar cosas raras en su computadora, pueden 
 e ingresar su password, (se las mando a su correo). Si desean cambiarla pueden usar ```$ passwd ```.
 
 - Ahora vamos a intentar clonar este repositorio, lo cual puede realizarse facilmente usando 
