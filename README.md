@@ -43,6 +43,19 @@ $ conda activate root_env
 
 - Espero sus sugerencias :+1: :shipit:
 
+## Seccion de Ivan
+Esta parte utiliza la interfaz grafica de root, si queremos usar  a hcrotte.fis.cinvestav.mx, debemos conectarnos con la opcion -X (untrusted X11 forwarding):
+```
+$ ssh -X username@hcrotte.fis.cinvestav.mx
+```
+Debido a que esto es tan lento como lo sea el internet del cinvestav (osea mucho), es recomendable correr estos ejercicios localmente (basta tener una instalacion de root)
+Salvo instrucciones proximas de Ivan. Lo que debemos hacer para correr estos ejemplos es:
+
+- Dessde el directorio de este repositorio ir a la carpeta Ivan usando :  ```$ cd Ivan/``` . 
+- Primero correemos blind.C, ``` $ root -l blind.C ```, esta macreo abre un TCanvas sobre el cual se desplegaran graficas, para avanzar en el ejericio deben hacer click o doble-click sobre las imagenes desplegadas, de nuevo si corren esto en hcrotte.fis.cinvestav.mx, el proceso sera mucho mas lento que hacerlo localmente. 
+-Ahora si todo ha funcionando adecuadamente habremos generado un workspace, y podemos correr signif_bkgsub.C: ``` $ root -l signif_bkgsub.C ```. Deberan hacer click o doble-click en el TCanvas para avanzar en el ejercicio. 
+
+
 Att.
 Gabriel.
 
