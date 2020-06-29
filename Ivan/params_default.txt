@@ -1,0 +1,28 @@
+[B0]
+Ns = 25000 L(0 - 100000) 
+Nb = 50000 L(0 - 100000)
+M_mean = 5.280 L(5.05 - 5.55) 
+M_sigma = 0.020 L(0.0001 - 0.1) 
+M_c1 = -0.14 L(-INF - INF) 
+SBlow =  5.210 C L(-INF - +INF)  // 5.180
+SBhigh =  5.350 C L(-INF - +INF) //5.380
+P_mean_s = 10.5 C L(0 - 45)
+P_sigma_s = 1.5 C L(0 - 5)
+P_mean_b = 7 C L(0 - 45)
+P_sigma_b = 1 C L(0 - 5)
+
+
+[B0x]
+Ns = 200 L(0 - 100000) 
+Nb = 5000 L(0 - 100000)
+M_mean = 5.280 L(5.05 - 5.55) 
+M_sigma = 0.020 L(0.0001 - 0.1) 
+M_c1 = -0.14 L(-INF - INF) 
+SBlow =  5.210 C L(-INF - +INF)  // 5.180
+SBhigh =  5.350 C L(-INF - +INF) //5.380
+P_mean_s = 10.5 C L(0 - 45)
+P_sigma_s = 1.5 C L(0 - 5)
+P_mean_b = 7 C L(0 - 45)
+P_sigma_b = 1 C L(0 - 5)
+
+
