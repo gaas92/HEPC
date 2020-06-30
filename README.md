@@ -43,6 +43,9 @@ $ conda activate root_env
 
 - Espero sus sugerencias :+1: :shipit:
 
+## Seccion Alex 
+Alejandro solo nos comento que debemos correr primero ciplh.C el cual genera un rootfile el cual es necesario en cimcmc.Cs
+
 ## Seccion de Ivan
 Esta parte utiliza la interfaz grafica de root, si queremos usar  a hcrotte.fis.cinvestav.mx, debemos conectarnos con la opcion -X (untrusted X11 forwarding):
 ```
