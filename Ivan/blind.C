@@ -258,7 +258,9 @@ void  blind() {
     // BKG INTERPOLATION, FIRST LOOK AT THE SIGNAL REGION
 
     // Coarse estimation of peak significance: assumes Signal events = Total events - Estimated Bkg.
-    Double_t SoverSpB = (data->numEntries() - Nb_est) / TMath::Sqrt(data->numEntries() - Nb_est + Nb_SR);
+    Double_t SoverSpB = (data->numEntries() - Nb_est) / TMath::Sqrt(Nb_SR);
+    //Could also use:
+    //Double_t SoverSpB = (data->numEntries() - Nb_est) / TMath::Sqrt(data->numEntries() - Nb_est + Nb_SR);
 
     //Unblind and plot Signal Region
     RooPlot* M_fr_2 = M->frame(Bins(binfit),Title("Signal region unblinding"));
@@ -270,7 +272,8 @@ void  blind() {
     TPaveText *ptext_2 = new TPaveText(0.35,0.62,0.7,0.85,"NDC");
     ptext_2->AddText(Form("Bkg expected in SR (Nb_{SR}^{*} = Nb^{*} fb_{SR}) = %d", int(Nb_SR) ));
     ptext_2->AddText(Form("Total events observed in SR (N - SB) = %d ", data->numEntries() - data_SB->numEntries() ));
-    ptext_2->AddText(Form("S/#sqrt{S+B} = (N - Nb^{*})/ #sqrt{N - Nb^{*} + Nb_{SR}^{*}} in SR = %0.1f", SoverSpB ));
+    //ptext_2->AddText(Form("S/#sqrt{B} = (N - Nb^{*})/ #sqrt{N - Nb^{*} + Nb_{SR}^{*}} in SR = %0.1f", SoverSpB ));
+    ptext_2->AddText(Form("S/#sqrt{B} = (N - Nb^{*})/ #sqrt{Nb_{SR}^{*}} in SR = %0.1f", SoverSpB ));
     ptext_2->SetBorderSize(0); ptext_2->SetFillColor(0); ptext_2->SetTextSize(0.053); ptext_2->SetTextFont(42);
     M_fr_2->addObject(ptext_2);
     
