@@ -1,4 +1,5 @@
 .DS_Store
-!Alex/CountingModdel.root
+
 *.root
+!Alex/CountingModdel.root
 *.png
