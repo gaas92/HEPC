@@ -1,5 +1,5 @@
 .DS_Store
 
 *.root
-!*Model.root
+!*CountingModel.root
 *.png
