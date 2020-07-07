@@ -1,5 +1,5 @@
 .DS_Store
 
 *.root
-!Alex/CountingModdel.root
+!*Model.root
 *.png
